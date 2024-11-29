@@ -87,43 +87,8 @@ nav.bg-img{
     }
 }
 
-/* TESTIMONIALS */
-.marquee {
-  position: relative;
-  width: 100vw;
-  max-width: 100%;
-  height: 100px;
-  overflow-x: hidden;
-}
-.marquee span{
-  font-size: 32px!important;
-  font-weight: 800;
-  color: #ddd;
-}
-.track {
-  position: absolute;
-  white-space: nowrap;
-  will-change: transform;
-  animation: marquee 20s linear infinite;
-  padding: 20px 0px;
-}
-@keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
-}
-#our-partners span{
-  padding: 0px 20px;
-}
-#our-partners .container{
-  justify-items: center;
-  justify-self: center;
-}
-#our-partners .container h3{
-  padding: 20px 0px;
-}
-
 /* CONTACT FORM */
-#conatct-us{
+#contact-us{
   background: #f7f7f7;
 }
 .contact-form-container{
